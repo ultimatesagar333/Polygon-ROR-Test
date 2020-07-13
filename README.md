@@ -13,3 +13,7 @@ Video Link: https://drive.google.com/file/d/1KGw5ujbjxbSnBbn-dmCz2KewMZyySg-r/vi
 # Screenshots of views : 
 
 Images Link: https://drive.google.com/drive/folders/1nAwVS_N0DHrXGlobWilHXlN2DfrfjBaZ?usp=sharing
+
+# Zip :
+
+Download Link: https://drive.google.com/file/d/1Hurp_qlKjAbmCiC0ZYLqUtgSBGnodWEL/view?usp=sharing
