@@ -1,0 +1,46 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+td, th {
+  border: 0px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+th {
+  border-bottom: 1px solid black;
+}
+table.scrolldown {
+  width: 330px;
+  border-spacing: 0;
+}
+
+table.scrolldown tbody, table.scrolldown thead {
+  display: block;
+}
+
+thead tr th {
+  height: 40px;
+  line-height: 40px;
+}
+
+table.scrolldown tbody {
+  max-height: 450px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+tbody td, thead th {
+  width : 200px;
+}
+
+td {
+  text-align:center;
+}

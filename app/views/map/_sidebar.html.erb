@@ -1,0 +1,22 @@
+<% if @polygons.present? %>
+  <table class="scrolldown">
+    <!-- Table head content -->
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>coordinates</th>
+      </tr>
+    </thead>
+    <!-- Table body content -->
+    <tbody>
+      <% @polygons.each_with_index do |polygon, num| %>
+        <tr>
+          <td><%= num + 1 %></td>
+          <td><%= polygon.coordinates %></td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+<% else %>
+  <p>No record found!</p>
+<% end %>
